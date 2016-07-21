@@ -1,0 +1,9 @@
+version '0.1.0'
+
+jar {
+    baseName = 'gs-scheduling-tasks'
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+}
