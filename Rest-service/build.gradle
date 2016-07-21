@@ -1,0 +1,9 @@
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+}
+
+jar {
+    baseName = 'gs-rest-service'
+    version =  '0.1.0'
+}
+
