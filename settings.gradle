@@ -1,2 +1,5 @@
 include 'Rest-service'
 include 'Scheduling-task'
+include 'Device-detection'
+include 'Consuming-rest'
+
