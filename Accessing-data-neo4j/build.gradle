@@ -1,0 +1,14 @@
+version '0.1.1'
+
+repositories {
+    mavenCentral()
+    maven { url "https://m2.neo4j.org" }
+    maven { url "https://repo.spring.io/libs-release" }
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.data:spring-data-neo4j")
+    compile("org.hibernate:hibernate-validator")
+}
+
