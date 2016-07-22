@@ -19,4 +19,5 @@ include 'Caching-gemfire'
 include 'Managing-transactions'
 include 'Accessing-data-jpa'
 include 'Web-content-spring-mvc'
+include 'Async-method'
 
