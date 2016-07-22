@@ -3,4 +3,5 @@ include 'Scheduling-task'
 include 'Device-detection'
 include 'Consuming-rest'
 include 'Relational-data-access'
+include 'Uploading-files'
 
