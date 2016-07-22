@@ -18,4 +18,5 @@ include 'Accessing-data-gemfire'
 include 'Caching-gemfire'
 include 'Managing-transactions'
 include 'Accessing-data-jpa'
+include 'Web-content-spring-mvc'
 
