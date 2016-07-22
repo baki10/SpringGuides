@@ -10,4 +10,5 @@ include 'Accessing-data-neo4j'
 include 'Validating-form-input'
 include 'Actuator-service'
 include 'Messaging-jms'
+include 'Batch-processing'
 
