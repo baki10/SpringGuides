@@ -5,7 +5,9 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -36,7 +38,7 @@ public class FileUploadController {
     this.resourceLoader = resourceLoader;
   }
 
-  @RequestMapping(method = RequestMethod.GET, value = "/")
+  @GetMapping("/")
   public String provideUploadInfo(Model model) throws IOException {
     model.addAttribute("files", Files.walk(Paths.get(ROOT))
         .filter(path -> !path.equals(Paths.get(ROOT)))
@@ -58,7 +60,7 @@ public class FileUploadController {
     }
   }
 
-  @RequestMapping(method = RequestMethod.POST, value = "/")
+  @PostMapping("/")
   public String handleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes) {
 
     if (!file.isEmpty()) {

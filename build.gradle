@@ -22,13 +22,13 @@ allprojects {
     repositories {
         mavenCentral()
     }
-}
 
-configurations.all {
-    resolutionStrategy {
-        eachDependency {
-            if (it.requested.group == 'org.springframework') {
-                it.useVersion '4.3.0.RELEASE'
+    configurations.all {
+        resolutionStrategy {
+            eachDependency {
+                if (it.requested.group == 'org.springframework') {
+                    it.useVersion '4.3.0.RELEASE'
+                }
             }
         }
     }
