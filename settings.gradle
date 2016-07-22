@@ -8,4 +8,5 @@ include 'Authentification-ldap'
 include 'Messaging-redis'
 include 'Accessing-data-neo4j'
 include 'Validating-form-input'
+include 'Actuator-service'
 
