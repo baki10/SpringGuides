@@ -12,4 +12,5 @@ include 'Actuator-service'
 include 'Messaging-jms'
 include 'Batch-processing'
 include 'Securing-web'
+include 'Rest-hateoas'
 
