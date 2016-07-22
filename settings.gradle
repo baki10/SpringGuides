@@ -15,4 +15,5 @@ include 'Securing-web'
 include 'Rest-hateoas'
 include 'Rss-integration'
 include 'Accessing-data-gemfire'
+include 'Caching-gemfire'
 
