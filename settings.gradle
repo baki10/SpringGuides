@@ -21,4 +21,5 @@ include 'Accessing-data-jpa'
 include 'Web-content-spring-mvc'
 include 'Async-method'
 include 'Form-submission'
+include 'Serving-mobile-web-content'
 
