@@ -5,4 +5,5 @@ include 'Consuming-rest'
 include 'Relational-data-access'
 include 'Uploading-files'
 include 'Authentification-ldap'
+include 'Messaging-redis'
 
