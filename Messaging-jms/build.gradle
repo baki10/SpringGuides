@@ -1,0 +1,7 @@
+version '0.1.1'
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework:spring-jms")
+    compile("org.apache.activemq:activemq-broker")
+}
