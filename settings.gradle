@@ -11,4 +11,5 @@ include 'Validating-form-input'
 include 'Actuator-service'
 include 'Messaging-jms'
 include 'Batch-processing'
+include 'Securing-web'
 
