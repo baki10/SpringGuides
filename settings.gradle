@@ -13,4 +13,5 @@ include 'Messaging-jms'
 include 'Batch-processing'
 include 'Securing-web'
 include 'Rest-hateoas'
+include 'Rss-integration'
 
