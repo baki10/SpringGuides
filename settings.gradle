@@ -17,4 +17,5 @@ include 'Rss-integration'
 include 'Accessing-data-gemfire'
 include 'Caching-gemfire'
 include 'Managing-transactions'
+include 'Accessing-data-jpa'
 
