@@ -25,4 +25,5 @@ include 'Serving-mobile-web-content'
 include 'Accessing-data-jpa-rest'
 include 'Producing-web-service'
 include 'Caching'
+include 'Crud-with-vaadin'
 
